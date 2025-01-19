@@ -34,17 +34,24 @@ export default function Home() {
   const experiences = [
     {
       title: "Senior Software Engineer",
-      company: "Tech Corp",
-      period: "2020 - Present",
-      description: "Led development of cloud-native applications using React and Node.js. Mentored junior developers and implemented CI/CD pipelines.",
-      skills: ["React", "Node.js", "AWS", "Docker"]
+      company: "GE Vernova",
+      period: "May 2021 - Present",
+      description: "Spearheaded the migration of 5000+ microservices from a Cloud Foundry-based PaaS to a modern, scalable platform built on AWS EKS using both Fargate and Managed Nodegroups, improving operational efficiency by 30% and reducing infrastructure costs by 60%.",
+      skills: ["Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Crossplane"]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Inc",
-      period: "2018 - 2020",
-      description: "Developed and maintained multiple web applications. Worked with cross-functional teams to deliver high-quality software solutions.",
-      skills: ["JavaScript", "Python", "PostgreSQL", "Redis"]
+      title: "Software Engineering Professional",
+      company: "British Telecom",
+      period: "Nov 2019 - May 2021",
+      description: "Led the Cloud Transformation of multiple legacy monolithic application architecture to microservices-based architecture on Pivotal Cloud Foundry PaaS built on top of AWS IaaS, reducing costs by 40%, improving scalability by 50% and Developer productivity by 80%.",
+      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
+    },
+    {
+      title: "AVP, Cloud Platform Engineer",
+      company: "Synchrony Financial",
+      period: "Oct 2018 - Oct 2019",
+      description: "Managed Pivotal Cloud Foundry PaaS administration, including installation and day-to-day operations across AWS and vSphere IaaS layers, focusing on application delivery, Bosh Director deployment, backup and restoration, and advanced troubleshooting of PCF foundations.",
+      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
     }
   ];
 
@@ -64,9 +71,9 @@ export default function Home() {
   ];
 
   const skills = [
-    "JavaScript", "TypeScript", "React", "Next.js", "Node.js",
-    "Python", "PostgreSQL", "AWS", "Docker", "Git",
-    "REST APIs", "GraphQL", "CI/CD", "Agile", "Team Leadership"
+    "AWS", "Azure", "Pivotal/OSS Cloud Foundry", "Kubernetes", "AWS", "Terraform", "VmWare Tanzu",
+    "Linux", "Bash", "Docker", "Git", "Crossplane", "Concourse", "Prometheus", "Grafana", "ELK",
+    "Github Actions", "Jenkins", "CI/CD", "Agile", "Team Leadership", "EKS", "AKS", "Platform Engineering"
   ];
 
   return (
@@ -86,7 +93,7 @@ export default function Home() {
           >
             <div className="absolute inset-0 bg-primary/10 rounded-full blur-xl transform -translate-y-2"></div>
             <img
-              src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop"
+              src="/images/Arvindv1.JPG"
               alt="Profile"
               className="w-40 h-40 rounded-full mb-8 shadow-lg relative z-10 transition-transform duration-300 hover:scale-105"
             />
@@ -95,22 +102,22 @@ export default function Home() {
             variants={fadeIn}
             className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70"
           >
-            John Doe
+            Arvind Chaturvedi
           </motion.h1>
           <motion.p 
             variants={fadeIn}
             className="text-xl text-muted-foreground mb-6"
           >
-            Senior Software Engineer
+            👩‍💻Senior ☁️ Cloud 🌐 Platform 🛡️ DevSecOps ⚙️ Engineer ⭐
           </motion.p>
           <motion.div 
             variants={staggerChildren}
             className="flex gap-4"
           >
             {[
-              { icon: <Github className="h-5 w-5" />, href: "https://github.com/yourusername" },
-              { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/yourusername" },
-              { icon: <Mail className="h-5 w-5" />, href: "mailto:john.doe@example.com" }
+              { icon: <Github className="h-5 w-5" />, href: "https://github.com/ArvindChaturvedi" },
+              { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/arvind-chaturvedi" },
+              { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com" }
             ].map((social, index) => (
               <motion.div
                 key={index}
@@ -138,7 +145,7 @@ export default function Home() {
             {[
               { value: "about", icon: <User className="h-4 w-4 mr-2" />, label: "About" },
               { value: "experience", icon: <Briefcase className="h-4 w-4 mr-2" />, label: "Experience" },
-              { value: "projects", icon: <Code2 className="h-4 w-4 mr-2" />, label: "Projects" },
+              { value: "projects", icon: <Code2 className="h-4 w-4 mr-2" />, label: "projects" },
               { value: "education", icon: <GraduationCap className="h-4 w-4 mr-2" />, label: "Education" },
               { value: "contact", icon: <MessageSquare className="h-4 w-4 mr-2" />, label: "Contact" }
             ].map(tab => (
@@ -163,9 +170,11 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-semibold mb-4">About Me</h2>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                    I'm a passionate software engineer with over 5 years of experience in building web applications.
-                    I specialize in frontend development with React and Next.js, but I'm also proficient in backend
-                    technologies. I love solving complex problems and creating user-friendly applications.
+                     👋 Hi there! I'm Arvind, a passionate Cloud Platform engineer with over 10 years 8 months of hands-on experience in driving operational excellence through Pivotal/OSS Cloud Foundry, VmWare Tanzu products, AWS, Kubernetes, EKS, Terraform and platform engineering. 🚀💼
+                      <br /><br />   
+                      ✨ I thrive in architecting and implementing robust cloud solutions that seamlessly bridge the gap between development and operations. My journey has been marked by a deep commitment to optimizing deployment pipelines, enhancing scalability, and ensuring the reliability of complex systems.📚🤝
+                      <br /><br />          
+                      💡 Let's connect! Whether you're looking to optimize your cloud strategy, revamp your CI/CD pipelines, or enhance your Kubernetes orchestration, I'm here to contribute my expertise and drive transformative results. Reach out and let's explore how we can create impactful solutions together.🌍✨
                   </p>
                   <h3 className="text-xl font-semibold mb-4">Skills</h3>
                   <motion.div 
@@ -280,15 +289,16 @@ export default function Home() {
                     whileHover={{ x: 10 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
-                    <h3 className="text-xl font-semibold">Master of Computer Science</h3>
-                    <p className="text-muted-foreground">Stanford University • 2016 - 2018</p>
+                    <h3 className="text-xl font-semibold">The Linux Foundation(CNCF) Certified</h3>
+                    <p className="text-muted-foreground">Certified Kubernetes Administrator • 2024 - 2027</p>
+                    <p className="text-muted-foreground">Certified Kubernetes Security Specialist • 2024 - 2027</p>
                   </motion.div>
                   <motion.div
                     whileHover={{ x: 10 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
-                    <h3 className="text-xl font-semibold">Bachelor of Computer Science</h3>
-                    <p className="text-muted-foreground">MIT • 2012 - 2016</p>
+                    <h3 className="text-xl font-semibold">Bachelor of Engineering (ECE)</h3>
+                    <p className="text-muted-foreground">All Saints' College of Technology (RGPV) • 2009 - 2013</p>
                   </motion.div>
                 </CardContent>
               </Card>
@@ -309,9 +319,9 @@ export default function Home() {
                     variants={staggerChildren}
                   >
                     {[
-                      { icon: <Mail className="h-5 w-5" />, href: "mailto:john.doe@example.com", text: "john.doe@example.com" },
-                      { icon: <Github className="h-5 w-5" />, href: "https://github.com/yourusername", text: "github.com/yourusername" },
-                      { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/yourusername", text: "linkedin.com/in/yourusername" }
+                      { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com", text: "Arvind.Chaturvedi1092@gmail.com" },
+                      { icon: <Github className="h-5 w-5" />, href: "https://github.com/ArvindChaturvedi", text: "github.com/ArvindChaturvedi" },
+                      { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/arvind-chaturvedi", text: "linkedin.com/in/arvind-chaturvedi" }
                     ].map((contact, index) => (
                       <motion.div
                         key={index}
