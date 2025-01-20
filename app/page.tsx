@@ -38,28 +38,28 @@ export default function Home() {
       company: "GE Vernova",
       period: "May 2021 - Present",
       description: "Spearheaded the migration of 5000+ microservices from a Cloud Foundry-based PaaS to a modern, scalable platform built on AWS EKS using both Fargate and Managed Nodegroups, improving operational efficiency by 30% and reducing infrastructure costs by 60%.",
-      skills: ["Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Crossplane"]
+      skills: ["OSS Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Crossplane", "ArgoCD", "Linux", "Splunk", "Prometheus", "Grafana"]
     },
     {
       title: "Software Engineering Professional",
       company: "British Telecom",
       period: "Nov 2019 - May 2021",
       description: "Led the Cloud Transformation of multiple legacy monolithic application architecture to microservices-based architecture on Pivotal Cloud Foundry PaaS built on top of AWS IaaS, reducing costs by 40%, improving scalability by 50% and Developer productivity by 80%.",
-      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
+      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse", "Linux", "Splunk", "ELK", "Prometheus", "Grafana"]
     },
     {
       title: "AVP, Cloud Platform Engineer",
       company: "Synchrony Financial",
       period: "Oct 2018 - Oct 2019",
       description: "Managed Pivotal Cloud Foundry PaaS administration, including installation and day-to-day operations across AWS and vSphere IaaS layers, focusing on application delivery, Bosh Director deployment, backup and restoration, and advanced troubleshooting of PCF foundations.",
-      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
+      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse", "Linux", "Splunk", "Prometheus", "NewRelic"]
     },
     {
       title: "Technical lead",
       company: "Cognizant Technology Solutions",
       period: "Mar 2014 - Oct 2018",
       description: "As a seasoned Pivotal Cloud Foundry (PCF) Administrator, I have demonstrated expertise in managing PCF foundations across diverse IaaS layers, including AWS, Azure, and vSphere. Over the course of my career, I have successfully installed and maintained 15+ PCF foundations, ensuring robust platform availability and scalability to support enterprise application delivery for organizations with 5,000+ users.",
-      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
+      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "Docker", "Kubernetes", "CI/CD", "Concourse", "Middleware", "Oracle Weblogic", "Linux", "Splunk", "Prometheus"]
     }
   ];
 /*
