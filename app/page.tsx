@@ -58,7 +58,7 @@ export default function Home() {
       title: "Technical lead",
       company: "Cognizant Technology Solutions",
       period: "Mar 2014 - Oct 2018",
-      description: "Managed Pivotal Cloud Foundry PaaS administration, including installation and day-to-day operations across AWS and vSphere IaaS layers, focusing on application delivery, Bosh Director deployment, backup and restoration, and advanced troubleshooting of PCF foundations.",
+      description: "As a seasoned Pivotal Cloud Foundry (PCF) Administrator, I have demonstrated expertise in managing PCF foundations across diverse IaaS layers, including AWS, Azure, and vSphere. Over the course of my career, I have successfully installed and maintained 15+ PCF foundations, ensuring robust platform availability and scalability to support enterprise application delivery for organizations with 5,000+ users.",
       skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
     }
   ];
