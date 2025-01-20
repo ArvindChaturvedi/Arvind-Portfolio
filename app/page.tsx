@@ -11,10 +11,11 @@ import {
   Linkedin, 
   Mail, 
   Briefcase, 
-  Code2, 
   GraduationCap,
   User,
-  MessageSquare
+  MessageSquare,
+  Phone,
+  MessageCircle
 } from "lucide-react";
 
 const fadeIn = {
@@ -117,7 +118,9 @@ export default function Home() {
             {[
               { icon: <Github className="h-5 w-5" />, href: "https://github.com/ArvindChaturvedi" },
               { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/arvind-chaturvedi" },
-              { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com" }
+              { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com" },
+              { icon: <Phone className="h-5 w-5" />, href: "tel:+91-7406062351" },
+              { icon: <MessageCircle className="h-5 w-5" />, href: "https://wa.me/7406062351" }
             ].map((social, index) => (
               <motion.div
                 key={index}
@@ -141,11 +144,10 @@ export default function Home() {
         </motion.div>
 
         <Tabs defaultValue="about" className="w-full max-w-4xl mx-auto">
-          <TabsList className="grid w-full grid-cols-5">
+          <TabsList className="grid w-full grid-cols-4">
             {[
               { value: "about", icon: <User className="h-4 w-4 mr-2" />, label: "About" },
               { value: "experience", icon: <Briefcase className="h-4 w-4 mr-2" />, label: "Experience" },
-              { value: "projects", icon: <Code2 className="h-4 w-4 mr-2" />, label: "projects" },
               { value: "education", icon: <GraduationCap className="h-4 w-4 mr-2" />, label: "Education" },
               { value: "contact", icon: <MessageSquare className="h-4 w-4 mr-2" />, label: "Contact" }
             ].map(tab => (
@@ -234,48 +236,6 @@ export default function Home() {
             </ScrollArea>
           </TabsContent>
 
-          <TabsContent value="projects" className="mt-6">
-            <ScrollArea className="h-[600px] pr-4">
-              <motion.div
-                variants={staggerChildren}
-                initial="hidden"
-                animate="visible"
-              >
-                {projects.map((project, index) => (
-                  <motion.div
-                    key={index}
-                    variants={fadeIn}
-                    className="mb-4"
-                  >
-                    <Card className="transition-all duration-300 hover:shadow-lg">
-                      <CardContent className="p-6">
-                        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                        <p className="text-muted-foreground mb-4">{project.description}</p>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          {project.skills.map((skill) => (
-                            <Badge key={skill} variant="outline" className="transition-colors duration-300 hover:bg-primary hover:text-primary-foreground">
-                              {skill}
-                            </Badge>
-                          ))}
-                        </div>
-                        <Button 
-                          variant="outline" 
-                          className="group transition-colors duration-300 hover:bg-primary hover:text-primary-foreground"
-                          asChild
-                        >
-                          <a href={project.link} target="_blank" rel="noopener noreferrer">
-                            <Github className="h-4 w-4 mr-2 transition-transform duration-300 group-hover:scale-110" />
-                            View Project
-                          </a>
-                        </Button>
-                      </CardContent>
-                    </Card>
-                  </motion.div>
-                ))}
-              </motion.div>
-            </ScrollArea>
-          </TabsContent>
-
           <TabsContent value="education" className="mt-6">
             <motion.div
               initial="hidden"
@@ -320,6 +280,8 @@ export default function Home() {
                   >
                     {[
                       { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com", text: "Arvind.Chaturvedi1092@gmail.com" },
+                      { icon: <Phone className="h-5 w-5" />, href: "tel:+917406062351", text: "+91 (740) 606-2351" },
+                      { icon: <MessageCircle className="h-5 w-5" />, href: "https://wa.me/7406062351", text: "WhatsApp" },
                       { icon: <Github className="h-5 w-5" />, href: "https://github.com/ArvindChaturvedi", text: "github.com/ArvindChaturvedi" },
                       { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/arvind-chaturvedi", text: "linkedin.com/in/arvind-chaturvedi" }
                     ].map((contact, index) => (
