@@ -53,9 +53,16 @@ export default function Home() {
       period: "Oct 2018 - Oct 2019",
       description: "Managed Pivotal Cloud Foundry PaaS administration, including installation and day-to-day operations across AWS and vSphere IaaS layers, focusing on application delivery, Bosh Director deployment, backup and restoration, and advanced troubleshooting of PCF foundations.",
       skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
+    },
+    {
+      title: "Technical lead",
+      company: "Cognizant Technology Solutions",
+      period: "Mar 2014 - Oct 2018",
+      description: "Managed Pivotal Cloud Foundry PaaS administration, including installation and day-to-day operations across AWS and vSphere IaaS layers, focusing on application delivery, Bosh Director deployment, backup and restoration, and advanced troubleshooting of PCF foundations.",
+      skills: ["Pivotal Cloud Foundry", "AWS", "Terraform", "GitOps", "Docker", "Kubernetes", "CI/CD", "Concourse"]
     }
   ];
-
+/*
   const projects = [
     {
       title: "E-commerce Platform",
@@ -70,7 +77,7 @@ export default function Home() {
       skills: ["React", "Firebase", "Material-UI", "TypeScript"]
     }
   ];
-
+*/
   const skills = [
     "AWS", "Azure", "Pivotal/OSS Cloud Foundry", "Kubernetes", "AWS", "Terraform", "VmWare Tanzu",
     "Linux", "Bash", "Docker", "Git", "Crossplane", "Concourse", "Prometheus", "Grafana", "ELK",
@@ -116,11 +123,11 @@ export default function Home() {
             className="flex gap-4"
           >
             {[
-              { icon: <Github className="h-5 w-5" />, href: "https://github.com/ArvindChaturvedi" },
-              { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/arvind-chaturvedi" },
+              { icon: <Github className="h-5 w-5" />, href: "https://www.github.com/ArvindChaturvedi" },
+              { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/arvind-chaturvedi" },
               { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com" },
-              { icon: <Phone className="h-5 w-5" />, href: "tel:+91-7406062351" },
-              { icon: <MessageCircle className="h-5 w-5" />, href: "https://wa.me/7406062351" }
+              { icon: <Phone className="h-5 w-5" />, href: "tel:+917406062351" },
+              { icon: <MessageCircle className="h-5 w-5" />, href: "https://wa.me/+917406062351" }
             ].map((social, index) => (
               <motion.div
                 key={index}
@@ -282,8 +289,8 @@ export default function Home() {
                       { icon: <Mail className="h-5 w-5" />, href: "mailto:Arvind.Chaturvedi1092@gmail.com", text: "Arvind.Chaturvedi1092@gmail.com" },
                       { icon: <Phone className="h-5 w-5" />, href: "tel:+917406062351", text: "+91 (740) 606-2351" },
                       { icon: <MessageCircle className="h-5 w-5" />, href: "https://wa.me/7406062351", text: "WhatsApp" },
-                      { icon: <Github className="h-5 w-5" />, href: "https://github.com/ArvindChaturvedi", text: "github.com/ArvindChaturvedi" },
-                      { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/arvind-chaturvedi", text: "linkedin.com/in/arvind-chaturvedi" }
+                      { icon: <Github className="h-5 w-5" />, href: "https://www.github.com/ArvindChaturvedi", text: "www.github.com/ArvindChaturvedi" },
+                      { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/arvind-chaturvedi", text: "www.linkedin.com/in/arvind-chaturvedi" }
                     ].map((contact, index) => (
                       <motion.div
                         key={index}
