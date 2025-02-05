@@ -179,7 +179,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-semibold mb-4">About Me</h2>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                     👋 Hi there! I'm Arvind, a passionate Cloud Platform engineer with over 10 years 8 months of hands-on experience in driving operational excellence through Pivotal/OSS Cloud Foundry, VmWare Tanzu products, AWS, Kubernetes, EKS, Terraform and platform engineering. 🚀💼
+                     👋 Hi there! I'm Arvind, a passionate Cloud Platform engineer with over 10 years 9 months of hands-on experience in driving operational excellence through Pivotal/OSS Cloud Foundry, VmWare Tanzu products, AWS, Kubernetes, EKS, Terraform and platform engineering. 🚀💼
                       <br /><br />   
                       ✨ I thrive in architecting and implementing robust cloud solutions that seamlessly bridge the gap between development and operations. My journey has been marked by a deep commitment to optimizing deployment pipelines, enhancing scalability, and ensuring the reliability of complex systems.📚🤝
                       <br /><br />          
